@@ -1,0 +1,1577 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-image: url("https://images.pexels.com/videos/2324166/free-video-2324166.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 300vw 560vh;
+}
+
+
+
+/*estilos globales*/
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
+  .headerrall nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 99.1vw;
+    height: auto;
+    margin: 0 0 1vh 0;
+    border: 1.5px solid black;
+    background-image: url("https://us.123rf.com/450wm/telas1020/telas10202212/telas1020221203648/196008576-a-colorful-abstract-painting-with-a-blue-background-and-yellow-and-pink-colors-on-it-s-surface.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  
+  .headerrall a {
+    text-decoration: none;
+    font-size: 5vw;
+    margin: 0 0 0 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    display: flex;
+    align-self: center;
+    width: 15vw;
+    height: 15vw;
+  }
+  
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 95vw;
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 95vw;
+    font-size: 3vw;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+  }
+  
+  .headerrall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+  }
+  
+  #containerrall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #sectionrall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.1vw;
+    height: 7vh;
+    color: white;
+    background-image: url("https://us.123rf.com/450wm/telas1020/telas10202212/telas1020221203648/196008576-a-colorful-abstract-painting-with-a-blue-background-and-yellow-and-pink-colors-on-it-s-surface.jpg?ver=6");
+    border: 1.5px solid black;
+  }
+
+
+  /*página home*/
+
+  div.gallery {
+    width: 75vw;
+    height: 40vw;
+    margin-top: 5vh;
+    border-radius: 5vw;
+    border: 1px solid black;
+    background-image: url("https://img.freepik.com/fotos-premium/mesa-madera-vieja-vacia-frente-al-fondo-borroso-pared-cemento-sombra-hoja_623166-310.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697846400&semt=ais");
+    border: 2px solid rgb(255, 0, 0);
+  }
+
+  div.gallery img {
+    width: 75vw;
+    height: 30vw;
+    border-radius: 5vw;
+  }
+
+  div.desc {
+    color: rgb(255, 255, 255);
+    padding: 2vh;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+
+  .parrafohome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+    margin-top: 2vh;
+    width: 80vw;
+  }
+
+  div.imgderecha img {
+    width: 75vw;
+    height: 45vw;
+    bottom: 8vh;
+    border-radius: 5vw;
+    margin-top: 2vh;
+  }
+  /*página about*/
+
+  div.about a img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 40vw;
+
+    color: black;
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 20px;
+    background-color: white;
+    padding: 2vw;
+    margin: 1.5vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .about p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    height: auto;
+    font-size: 5vw;
+    color: white;
+  }
+  /*página contact*/
+  .imgcontact img {
+    width: 80vw;
+    height: 50vh;
+    color: black;
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .whatsApp img {
+    position: fixed;
+    width: 5vw;
+    left: 88vw;
+    bottom: 1vh;
+  }
+
+  .gmail img {
+    position: fixed;
+    width: 5vw;
+    left: 3vw;
+    bottom: 1vh;
+  }
+
+  .parrafowhatsapp {
+    font-weight: bolder;
+    color: rgb(255, 254, 254);
+    font-size: 4vw;
+    width: 95vw;
+  }
+
+  #sectionparrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99.1vw;
+    height: auto;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/816/236/951/dark-blue-3d-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*pagina information*/
+  table,
+  tr,
+  th,
+  td {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70vw;
+    height: 12vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 2vh;
+    color: black;
+    border: 2px solid rgba(162, 0, 255, 0.452);
+  }
+
+  .containerinformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 6.6vh 0;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  /*página benefits tips*/
+
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgb(50, 248, 0);
+    width: 95vw;
+    height: 50vh;
+    margin: 5vh 0 0 0;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: black;
+  }
+
+  .benefits img {
+    width: 15vw;
+    height: 15vw;
+    margin: 2vh 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    border: 2px solid rgb(14, 12, 12);
+    cursor: pointer;
+  }
+
+  .benefits2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgb(50, 248, 0);
+    width: 95vw;
+    height: 50vh;
+    margin: 5vh 0 0 0;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: black;
+  }
+
+  .benefits2 img {
+    width: 15vw;
+    height: 15vw;
+    margin: 2vh 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    border: 2px solid rgb(14, 12, 12);
+    cursor: pointer;
+  }
+
+  .lititle {
+    margin: 0 0 0 7vw;
+    color: brown;
+  }
+
+
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 70vw;
+  margin: 0.5vh 0 0 20vw;
+}
+
+.benefitsparrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin: 2vh 0 5vh 0;
+  width: 80vw;
+  color: white;
+}
+
+.iconoestrella {
+  color: brown;
+  text-align: center;
+  margin: 2vh 0 0 0;
+  list-style-type: none;
+}
+
+/*Pagina Raffle*/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  margin-top: 3vh;
+  border-radius: 1vh;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  color: black;
+}
+
+#formraffle .inputraffle {
+  width: 60vw;
+  height: 4.5vh;
+}
+
+#formraffle .labelraffle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  margin-left: 10vw;
+  margin-top: 0.5vh;
+}
+
+#inputradio {
+  align-self: flex-start;
+  margin-left: 10vw;
+  margin-top: 1vh;
+}
+
+#meetzoom {
+  width: 60vw;
+  height: 6vh;
+}
+
+#sectionrall textarea {
+  width: 60vw;
+  height: 15vh;
+}
+
+#checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  font-size: 2.5vw;
+  margin-top: 1vh;
+}
+
+iframe {
+  width: 80vw;
+  height: 25vh;
+  padding-top: 3vh;
+  border-radius: 1vw;
+  margin-bottom: 5vh;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+  .headerrall nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 99.9vw;
+    height: auto;
+    border: 1.5px solid black;
+    background-image: url("https://us.123rf.com/450wm/telas1020/telas10202212/telas1020221203648/196008576-a-colorful-abstract-painting-with-a-blue-background-and-yellow-and-pink-colors-on-it-s-surface.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  
+  .headerrall a {
+    text-decoration: none;
+    font-size: 3.5vw;
+    margin: 0 0 1vh 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    display: flex;
+    align-self: center;
+    width: 15vw;
+    height: 15vw;
+  }
+  
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 95vw;
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 95vw;
+    font-size: 2vw;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+  }
+  
+  .headerrall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+  }
+  
+  #containerrall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #sectionrall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.9vw;
+    height: 7vh;
+    font-size: 3vw;
+    color: white;
+    background-image: url("https://us.123rf.com/450wm/telas1020/telas10202212/telas1020221203648/196008576-a-colorful-abstract-painting-with-a-blue-background-and-yellow-and-pink-colors-on-it-s-surface.jpg?ver=6");
+    border: 1.5px solid black;
+  }
+
+
+  /*página home*/
+
+  div.gallery {
+    width: 75vw;
+    height: 40vw;
+    margin-top: 5vh;
+    border-radius: 5vw;
+    border: 1px solid black;
+    background-image: url("https://img.freepik.com/fotos-premium/mesa-madera-vieja-vacia-frente-al-fondo-borroso-pared-cemento-sombra-hoja_623166-310.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697846400&semt=ais");
+    border: 2px solid rgb(255, 0, 0);
+  }
+
+  div.gallery img {
+    width: 75vw;
+    height: 30vw;
+    border-radius: 5vw;
+  }
+
+  div.desc {
+    color: rgb(0, 0, 0);
+    padding: 2vh;
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .parrafohome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    margin-top: 2vh;
+    width: 80vw;
+  }
+
+  div.imgderecha img {
+    width: 75vw;
+    height: 45vw;
+    bottom: 8vh;
+    border-radius: 5vw;
+    margin-top: 2vh;
+  }
+  /*página about*/
+
+  div.about a img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 40vw;
+    color: black;
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 20px;
+    background-color: white;
+    padding: 2vw;
+    margin: 1.5vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .about p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    height: auto;
+    font-size: 3.5vw;
+    color: white;
+  }
+  /*página contact*/
+  .imgcontact img {
+    width: 90vw;
+    height: 60vh;
+    color: black;
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .whatsApp img {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    left: 94.5vw;
+    bottom: 1vh;
+  }
+
+  .gmail img {
+    position: fixed;
+    width: 5vw;
+    left: 0.5vw;
+    bottom: 1vh;
+  }
+
+  .parrafowhatsapp {
+    font-weight: bolder;
+    color: rgb(255, 254, 254);
+    font-size: 2.5vw;
+    width: 97vw;
+    margin: 0 0 0 1vw;
+  }
+
+  #sectionparrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99.1vw;
+    height: auto;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/816/236/951/dark-blue-3d-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*pagina information*/
+  table,
+  tr,
+  th,
+  td {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70vw;
+    height: 12vh;
+    font-size: 3vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 2vh;
+    color: black;
+    border: 2px solid rgba(162, 0, 255, 0.452);
+  }
+
+  .containerinformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 6.6vh 0;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  /*página benefits tips*/
+
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgb(50, 248, 0);
+    width: 90vw;
+    height: 55vh;
+    margin: 5vh 0 0 0;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: black;
+  }
+
+  .benefits img {
+    width: 15vw;
+    height: 15vw;
+    margin: 2vh 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    border: 2px solid rgb(14, 12, 12);
+    cursor: pointer;
+  }
+
+  .benefits2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgb(50, 248, 0);
+    width: 90vw;
+    height: 55vh;
+    margin: 5vh 0 0 0;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: black;
+  }
+
+  .benefits2 img {
+    width: 15vw;
+    height: 15vw;
+    margin: 2vh 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    border: 2px solid rgb(14, 12, 12);
+    cursor: pointer;
+  }
+
+  .lititle {
+    font-size: 4vw;
+    margin: 0 0 0 7vw;
+    color: brown;
+  }
+
+
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  font-size: 2.5vw;
+  width: 70vw;
+  margin: 0.5vh 0 0 20vw;
+}
+
+.benefitsparrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 3vw;
+  margin: 2vh 0 5vh 0;
+  width: 80vw;
+  color: white;
+}
+
+.iconoestrella {
+  font-size: 2.5vw;
+  color: brown;
+  text-align: center;
+  margin: 2vh 0 0 0;
+  list-style-type: none;
+}
+
+/*Pagina Raffle*/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 100vh;
+  margin-top: 3vh;
+  border-radius: 1vh;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  color: black;
+}
+
+#formraffle .inputraffle {
+  width: 55vw;
+  height: 4.5vh;
+}
+
+#formraffle .labelraffle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  margin-left: 7.5vw;
+  margin-top: 0.5vh;
+  font-size: 2.5vw;
+}
+
+#inputradio {
+  align-self: flex-start;
+  margin-left: 7.5vw;
+  margin-top: 1vh;
+  font-size: 2.5vw;
+}
+
+#inputradio input{
+  width: 2vw;
+  height: 2vw;
+}
+
+#meetzoom {
+  width: 55vw;
+  height: 6vh;
+}
+
+#sectionrall textarea {
+  width: 55vw;
+  height: 15vh;
+}
+
+#checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  margin-top: 1vh;
+}
+
+#checkbox input{
+  width: 2vw;
+  height: 2vw;
+  margin: 0 1vw 0 0;
+}
+
+button{
+  width: 8vw;
+  height: 4.5vh;
+  font-size: 2vw;
+}
+
+iframe {
+  width: 70vw;
+  height: 25vh;
+  padding-top: 3vh;
+  border-radius: 1vw;
+  margin-bottom: 5vh;
+}
+}
+
+@media only screen and (min-width: 1025px){
+
+  .headerrall nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 98.6vw;
+    height: 10vh;
+    border: 1.5px solid black;
+    background-image: url("https://us.123rf.com/450wm/telas1020/telas10202212/telas1020221203648/196008576-a-colorful-abstract-painting-with-a-blue-background-and-yellow-and-pink-colors-on-it-s-surface.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  
+  .headerrall a {
+    transform: translateX(-17vw);
+    text-decoration: none;
+    font-size: 2vw;
+    margin: 0 1vw 0 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    display: flex;
+    align-self: flex-end;
+    transform: translateX(79vw);
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 95vw;
+    font-size: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+  }
+  
+  h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 95vw;
+    font-size: 1.5vw;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+  }
+  
+  
+  #containerrall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #sectionrall {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-items: flex-start;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.6vw;
+    height: 7vh;
+    font-size: 2vw;
+    color: white;
+    background-image: url("https://us.123rf.com/450wm/telas1020/telas10202212/telas1020221203648/196008576-a-colorful-abstract-painting-with-a-blue-background-and-yellow-and-pink-colors-on-it-s-surface.jpg?ver=6");
+    border: 1.5px solid black;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+
+  /*página home*/
+
+  div.gallery {
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    margin-top: 5vh;
+    margin: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+    background-image: url("https://img.freepik.com/premium-photo/set-colorful-frozen-yogurt-ice-creams-waffle-cones-isolated-background-3d-illustration_874813-12124.jpg");
+    border: 2px solid rgb(51, 255, 0);
+  }
+  
+  div.gallery:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  div.gallery img {
+    width: 20vw;
+    height: auto;
+    border-radius: 1vw;
+  }
+  
+  div.desc {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5vw;
+  }
+  
+  .parrafohome p{
+    display: inline-block;
+    position: relative;
+    width: 30vw;
+    height: auto;
+    margin: 0 0 0 50vw;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    margin-top: 0vh;
+  }
+  
+ 
+  
+  
+  
+  .parrafohome{
+    display: inline-block;
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    margin-bottom: 10vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    margin-top: 50vh;
+  }
+  
+  div.imgderecha img {
+    display: inline-block;
+    position: relative;
+    width: 30vw;
+    height: 15vw;
+    margin-top: 45vh;
+    margin-left: -80vw;
+    border-radius: 1vw;
+    border: 2px solid rgb(51, 255, 0);
+  }
+
+
+
+
+  
+  /*página about*/
+
+  div.about a img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 15vw;
+    color: black;
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 20px;
+    background-color: white;
+    padding: 1vw;
+    margin: 0.5vw 0 0 10vw;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .about p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: center;
+    width: 40vw;
+    height: auto;
+    margin: 0 0 0 45vw;
+    transform: translateY(-20vh);
+    font-size: 2vw;
+    color: white;
+  }
+  /*página contact*/
+  .imgcontact img {
+    width: 90vw;
+    height: 60vh;
+    color: black;
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 20px;
+    background-color: white;
+    padding: 3vh;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    box-sizing: border-box;
+    
+  }
+
+  .whatsApp img {
+    position: fixed;
+    width: 3vw;
+    height: 2.5vw;
+    left: 94.5vw;
+    bottom: 1vh;
+  }
+
+  .gmail img {
+    position: fixed;
+    width: 3vw;
+    left: 0.5vw;
+    bottom: 1vh;
+  }
+
+  .parrafowhatsapp {
+    color: rgb(255, 254, 254);
+    font-size: 2vw;
+    width: 97vw;
+    margin: 4vh 0 0 0;
+    
+  }
+
+  #sectionparrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:inherit;
+    width: 98vw;
+    height: auto;
+    margin-top: 10vh;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/816/236/951/dark-blue-3d-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*pagina information*/
+  table,
+  tr,
+  th,
+  td {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70vw;
+    height: 15.2vh;
+    font-size: 3vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 2vh;
+    color: black;
+    border: 2px solid rgba(162, 0, 255, 0.452);
+  }
+
+  .containerinformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 6.6vh 0;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  /*página benefits tips*/
+  #containerbenefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    border: 2px solid rgb(248, 0, 0);
+    width: 60vw;
+    height: 55vh;
+    margin: 5vh 0 0 0;
+    
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: black;
+  }
+
+  .benefits img {
+
+    width: 10vw;
+    height: 10vw;
+    margin: 2vh 0 0 2.5vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    border: 2px solid rgb(14, 12, 12);
+    cursor: pointer;
+  }
+
+  .benefits2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid rgb(248, 0, 0);
+    width: 60vw;
+    height: 55vh;
+    margin: 5vh 0 0 0;
+    
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: black;
+  }
+
+  .benefits2 img {
+    width: 10vw;
+    height: 10vw;
+    margin: 2vh 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    border: 2px solid rgb(14, 12, 12);
+    cursor: pointer;
+  }
+
+  .lititle {
+    font-size: 2.5vw;
+    margin: 0 0 0 15vw;
+    color: brown;
+    
+  }
+
+
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  font-size: 2vw;
+  
+  margin: 0.5vh 0 0 7vw;
+  
+}
+
+.benefitsparrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 1.5vw;
+  margin: 2vh 0 5vh 0;
+  width: 50vw;
+  height: auto;
+  color: white;
+  
+}
+
+.iconoestrella {
+  font-size: 2vw;
+  color: brown;
+  text-align: center;
+  margin: 2vh 0 0 0;
+  list-style-type: none;
+}
+
+/*Pagina Raffle*/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-self: space-around;
+  align-items: center;
+  width: 40vw;
+  height: 100vh;
+  margin-top: 3vh;
+  margin: 3vw;
+  border-radius: 1vh;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  color: black;
+}
+
+#formraffle .inputraffle {
+  width: 35vw;
+  height: 50vh;
+}
+
+#formraffle .labelraffle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  margin-left: 2.5vw;
+  margin-top: 0.5vh;
+  font-size: 2vw;
+}
+
+#inputradio {
+  align-self: flex-start;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  font-size: 2vw;
+}
+
+#inputradio input{
+  width: 1vw;
+  height: 1vw;
+}
+
+#meetzoom {
+  width: 35vw;
+  height: 30vw;
+}
+
+#sectionrall textarea {
+  width: 35vw;
+  height: 90vw;
+}
+
+#checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  margin-top: 1vh;
+}
+
+#checkbox input{
+  width: 1vw;
+  height: 1vw;
+  margin: 0 1vw 0 0;
+}
+
+button{
+  width: 5vw;
+  height: 5vh;
+  font-size: 1vw;
+}
+
+iframe {
+  width: 30vw;
+  height: 80vh;
+  padding-top: 15vh;
+  border-radius: 1vw;
+  margin-bottom: 5vh;
+}
+
+
+/*nav a {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  bottom: 3vh;
+  margin: 0 0 0 2vw;
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  transform: translateX(50vw);
+  width: 3.4vw;
+  height: 3.4vw;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99.9vw;
+  z-index: 1;
+  background-color: #9c99ff;
+}
+
+h1,
+h2 {
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 18px;
+  border-color: white;
+  top: 8vh;
+}
+
+div.gallery {
+  display: inline-block;
+  position: relative;
+  left: 14vw;
+  margin: 2vw;
+  width: 180px;
+  height: 30vh;
+  margin-top: 15vh;
+  border-radius: 5%;
+  border: 1px solid black;
+  background-image: url("https://img.freepik.com/premium-photo/set-colorful-frozen-yogurt-ice-creams-waffle-cones-isolated-background-3d-illustration_874813-12124.jpg");
+}
+
+div.gallery:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 7%;
+}
+
+div.desc {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+footer {
+  background-color: #9c99ff;
+  text-align: center;
+  padding: 9.5px;
+}
+
+div.parrafohome img {
+  display: inline-block;
+  position: relative;
+  width: 32.5vw;
+  height: 22.7vh;
+  left: 37vw;
+  bottom: 8.5vw;
+  border-radius: 5px;
+}
+
+.parrafohome {
+  display: inline-block;
+  position: relative;
+  width: 35vw;
+  height: 19vh;
+  left: 16vw;
+  color: black;
+  font-size: 20.6px;
+  top: 50px;
+}
+
+div.imgderecha img {
+  display: inline-block;
+  position: relative;
+  width: 33vw;
+  height: 19.4vh;
+  left: 53vw;
+  bottom: 80px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainabout {
+  height: 93.1vh;
+}
+
+div.about a img {
+  display: block;
+  position: relative;
+  width: 18vw;
+  height: 18vh;
+  left: 20vw;
+  top: 10vh;
+  color: black;
+  border: 2px solid rgb(14, 12, 12);
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#parrafomain {
+  display: block;
+  position: relative;
+  width: 30vw;
+  height: 20vh;
+  left: 40vw;
+  color: black;
+  bottom: 65vh;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(14, 12, 12);
+  margin: 60px;
+  font-size: larger;
+}
+
+div.about a img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+div.imgcontact img {
+  display: inline-block;
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+  left: 10vw;
+  top: 10vh;
+  color: black;
+  border: 2px solid rgb(14, 12, 12);
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+div.whatsApp a img {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 3vw;
+}
+
+img.gmail {
+  position: fixed;
+  left: 10px;
+}
+
+p.parrafowhatsapp {
+  display: block;
+  position: relative;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  column-count: 4;
+  column-gap: 5vw;
+  column-rule-style: solid;
+  column-rule-width: 0.1vw;
+  column-rule-color: rgb(0, 0, 0);
+}
+
+footer.footercontact {
+  height: 60vh;
+}
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+  width: 70vw;
+  height: 12vh;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 2vh;
+  color: black;
+  border: 2px solid rgb(14, 12, 12);
+}
+
+.containerinformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 2px solid rgb(0, 0, 0);
+  width: 70vw;
+  height: 30vh;
+  margin: 15vh 0 0 15vw;
+  border-radius: 2vh;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  color: black;
+}
+
+.benefits img {
+  width: 20vw;
+  height: 25vh;
+  margin: 2vh 0 0 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  border: 2px solid rgb(14, 12, 12);
+  cursor: pointer;
+}
+
+.benefits2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 2px solid rgb(0, 0, 0);
+  width: 70vw;
+  height: 30vh;
+  margin: 0 0 0 15vw;
+  border-radius: 2vh;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  color: black;
+}
+
+.benefits2 img {
+  width: 20vw;
+  height: 25vh;
+  margin: 2vh 0 0 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  border: 2px solid rgb(14, 12, 12);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 4vh 0 0 0;
+}
+
+.benefitsparrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3vh 0 0 0;
+}
+
+.iconoestrella {
+  margin: 2vh 0 0 0;
+  list-style-type: none;
+}
+
+#livacio {
+  list-style-type: none;
+}
+
+.liorder {
+  margin: 10vh 0 0 0;
+}*/
+}

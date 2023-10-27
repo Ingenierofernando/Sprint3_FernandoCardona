@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./imagenes/icon.png">
+  </head>
+  <body>
+    <div id="containerrall">
+      <header class="headerrall">
+        <nav>
+          <img class="logo" src="./imagenes/logo.png" alt="logo">
+          <a href="index.html">Home</a>
+          <a href="aboutUs.html">AboutUs</a>
+          <a href="contact.html">Contact</a>
+          <a href="information.html">Information</a>
+          <a href="benefitsTips.html">Benefits Tips</a>
+          <a href="#">Raffle</a>
+        </nav>
+        
+        <h1>Raffle</h1>
+        <br>
+        <h2>
+          You can collaborate to hold an exhibition event and participate
+          in a raffle to wim an ease!
+        </h2>
+      </header>
+
+      <main>
+        <section id="sectionrall">
+          <form action="" id="formraffle">
+            <br><br>
+            <label class="labelraffle" for="firstName">First Name:</label>
+            <input class="inputraffle" type="text" id="fname" name="Fname">
+            <br>
+            <label class="labelraffle" for="firstName">Last Name:</label>
+            <input class="inputraffle" type="text" id="lname" name="lname">
+            <br>
+            <label class="labelraffle" for="cars">Choose meet or zoom:</label>
+            <select id="meetzoom" name="meetzoom">
+              <option value="#">Select a option</option>
+              <option value="meet">Meet</option>
+              <option value="zoom">zoom</option>
+            </select>
+            <br>
+            <label class="labelraffle" for="firstName">Choose Date:</label>
+            <input class="inputraffle" type="date" id="date" name="date">
+            
+            <div id="inputradio">
+
+              <label for="titulo">Payment Option:</label>
+            <br>
+              <input type="radio" name="formapago" />
+              <label for="cash" name="dinero">Cash</label>
+              <br>
+              <input type="radio" name="formapago" />
+              <label for="credit">Credit Card</label>
+              <br>
+              <input type="radio" name="formapago" />
+              <label for="debit">Debit Card</label>
+            </div>
+            <br>
+            <label class="labelraffle" for="Mesage">Mesage (Optional):</label>
+            <textarea name="mesage" cols="30" rows="10"></textarea>
+            
+            <div id="checkbox">
+              <input type="checkbox" name="aceptaterminos" id="checkboxraffle" />
+              <label for="checkboxraffle">I accept terms and conditions...</label>
+              <button type="submit" value="submit">send</button>
+              
+            </div>
+            <br>
+          </form>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846207.9277689502!2d-118.2392821414202!3d34.05670203778477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1697774626333!5m2!1ses-419!2sco"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </main>
+
+      <footer>
+        <p>Create By: Fernando Cardona</p>
+      </footer>
+    </div>
+  </body>
+</html>
